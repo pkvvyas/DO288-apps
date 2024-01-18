@@ -14,7 +14,7 @@ echo "customization start here"
 cp -Rf /tmp/src/*.html ./
 
 echo "Creating info page"
-DATE=`date "+%b %d, %Y @ %H:%M %p"`
+DATE=`date "+%b %d, %Y"`
 echo "Page build on $DATE" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
